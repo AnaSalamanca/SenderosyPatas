@@ -1,0 +1,156 @@
+body {
+    font-family: 'Verdana', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #e8f5c7; 
+    color: #050407d0;
+}
+
+header {
+    background-color: #abe7bd; 
+    padding: 1rem; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+header.logo {
+width: 150px;
+height: auto;
+background-color: #2ae0a4;
+display: flex;
+align-items: center;
+justify-content: center;
+font-weight: bold;
+}
+
+header h1 {
+    font-size: 2rem; 
+    margin: 0; 
+    line-height: 1.2; 
+}
+
+nav {
+    background-color: #c2fcc7; 
+    color: #579ff1;
+    padding: 0.5rem;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    color: #57430c;
+    margin: 0 0.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+main {
+    padding: 2rem;
+    max-width: 900px;
+    margin: 2rem auto;
+    background-color: #bfc9b2;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 2rem;
+    background-color: #d3f1e0;
+
+}
+
+h1, h2, h3 {
+    color: #0c0c0f;
+}
+
+p {
+    margin: 0.5rem 0;
+    color: #3d3d3f
+}
+
+img {
+    display: block;
+    margin: 1rem auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.recorrido {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    background-color: #d3f1e0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    background-color: #7b9c8a;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(97, 14, 14, 0.1);
+}
+
+label {
+    display: block;
+    margin-top: 0.5rem;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #15c0df;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+input[type="submit"] {
+    background-color: #1b5e20;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+input[type="date"] {
+    padding: 10px;               
+    font-size: 1rem;             
+    border: 1px solid #15c0df;      
+    border-radius: 5px;          
+    background-color: #fff;      
+    width: 100%;                  
+    box-sizing: border-box;      
+    margin-bottom: 10px;         
+}
+
+form label {
+    font-weight: bold;
+    margin-bottom: 5px;       
+}
+
+video {
+    max-width: 40%; 
+    height: auto;    
+    display: block;
+    margin: 0 auto;
+}
+
+.info-button {
+    display: inline-block;    
+    padding: 10px 20px;      
+    font-size: 1rem;          
+    color: #ddeee4;              
+    background-color: #1b5e20; 
+    border: none;           
+    border-radius: 5px;      
+    text-align: center;   
+    cursor: pointer;      
+}

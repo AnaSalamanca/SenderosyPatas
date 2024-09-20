@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cascada Nemusten Sueva - Más información</title>
+    <link rel="stylesheet" href="Senderosypatas.css">
+</head>
+<body>
+
+<header>
+    <img src="Imagenes/LOGO.png" alt="Senderos y Patas Logo" style="width: 150px;">
+    <h1>Cascada Nemusten Sueva</h1>
+</header>
+
+<main>
+    <section id="informacion">
+        <h2>Información Adicional</h2>
+        <p>Dificultad suave-media, recorrido de 4km-5km aproximadamente, con una duracion de 45 minutos, horario: sabados y domingos de 7:00 am a 6:00 pm.</p>
+        <p> Recomendaciones: 
+            <ol>
+                <li>Llegar temprano para disfrutar el lugar.</li>
+                <li>Se puede llegar en carro, moto o bus, valor del parqueadero $5.000 para carro o $3.000 para moto, entrada $3.000 por persona.</li>
+                <li>Llevar agua y snacks.</li>
+                <li>Llevar ropa de cambio o para lluvia.</li>
+            </ol>  
+    </section>
+    <section id="video">
+        <div class="video-container">
+        <video controls width="600">
+        <source src="Videos/VIDEO NEMUSTEN.mp4" type="video/mp4">
+        </div>
+    </section>
+    <section id="ubicacion-contacto">
+        <h2>Ubicación y Contacto</h2>
+        <p>Se encuentra en el municipio de Guavio a 2 horas de Bogota.</p>
+        <p>Teléfono: 3222471283</p>
+        <p>Email: Senderosypatas@gmail.com</p>
+        <img src="Imagenes/mapa-nemusten.jpg" alt="Mapa de nemusten" width="600">
+    </section>
+    <section id="formulario">
+        <h2>Formulario de Inscripción</h2>
+        <form action="enviar_inscripcion.php" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>  
+            <label for="nombre">Telefono:</label>
+            <input type="text" id="nombre" name="Telefono" required>
+            <br>
+            <label for="fecha">Fecha del recorrido:</label>
+            <input type="date" id="fecha" name="fecha" required>
+            <br>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje"></textarea>
+            <br>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+</main>
+</body>
+</html>

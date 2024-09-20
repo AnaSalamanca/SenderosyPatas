@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parque Matarredonda - Más información</title>
+    <link rel="stylesheet" href="Senderosypatas.css">
+</head>
+<body>
+
+<header>
+    <img src="Imagenes/LOGO.png" alt="Senderos y Patas Logo" style="width: 150px;">
+    <h1>Parque Matarredonda - Sendero Laguna Teusaca</h1>
+</header>
+
+<main>
+    <section id="informacion">
+        <h2>Información Adicional</h2>
+        <p>La laguna de teusaca es el unico sendero habilitado para estar con tu mascota, dificultad suave-media, con una duracion aproximadamente de 2 horas y media, horario: domingo a domingo de 8:00 am a 2:00 pm. El valor de la entrada por cada persona es de $12.000 y por cada perro que lleves $5.000.</p>
+    </section>
+    <section id="video">
+        <div class="video-container">
+        <video controls width="600">
+        <source src="Videos/VIDEO MATARREDONDA.mp4" type="video/mp4">
+        </div>
+    </section>
+    <section id="ubicacion-contacto">
+        <h2>Ubicación y Contacto</h2>
+        <p>Se encuentra en el municipio de Choachi Cundinamarca a 40 minutos de Bogota.</p>
+        <p>Teléfono: 3222471283</p>
+        <p>Email: Senderosypatas@gmail.com</p>
+        <img src="Imagenes/mapa-nemusten.jpg" alt="Mapa de nemusten" width="600">
+    </section>
+    <section id="formulario">
+        <h2>Formulario de Inscripción</h2>
+        <form action="enviar_inscripcion.php" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>  
+            <label for="nombre">Telefono:</label>
+            <input type="text" id="nombre" name="Telefono" required>
+            <br>
+            <label for="fecha">Fecha del recorrido:</label>
+            <input type="date" id="fecha" name="fecha" required>
+            <br>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje"></textarea>
+            <br>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+</main>
+</body>
+</html>

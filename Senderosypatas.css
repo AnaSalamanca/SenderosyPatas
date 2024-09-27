@@ -34,8 +34,14 @@ justify-content: center;
 font-weight: bold;
 }
 
+.title-image {
+    height: auto;
+    margin-right: 10px; 
+    border-radius: 50%; 
+}
+
 header h1 {
-    font-size: 2rem; 
+    font-size: 3rem; 
     margin: 0; 
     line-height: 1.2; 
 }
@@ -75,8 +81,9 @@ h1, h2, h3 {
 }
 
 h2 {
+    font-size: 2rem;
     text-align: center;
-    color:darkgreen
+    color:darkgreen 
 }
 
 p {

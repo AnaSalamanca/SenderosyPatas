@@ -170,3 +170,41 @@ video {
     text-align: center;   
     cursor: pointer;      
 }
+
+footer {
+    background-color: #ebf6fd;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #d62424;
+    text-decoration: none;
+}
+
+.btn-enviar {
+    display: inline-block;    
+    padding: 10px 20px;      
+    font-size: 1rem;          
+    color: #ddeee4;              
+    background-color: #1b5e20; 
+    border: none;           
+    border-radius: 5px;      
+    text-align: center;   
+    cursor: pointer; 
+}
+.home-button {
+    display: inline-block;    
+    padding: 10px 20px;      
+    font-size: 1rem;          
+    color: #ddeee4;              
+    background-color: #1b5e20; 
+    border: none;           
+    border-radius: 5px;      
+    text-align: center;   
+    cursor: pointer; 
+}

@@ -1,0 +1,25 @@
+{
+    "titulo": "Senderos y Patas",
+    "recorridos":[
+        {
+            "nombre":"Parque la chorrera",
+            "ubicacion":"Choachi Cundinamarca",
+            "descripcion": "Caminata con dificultad media-fuerte",
+            "valorVisita": 40000
+        },
+        {
+            "nombre":"Nemusten Sueva",
+            "ubicacion":"Municio de Guavio",
+            "descripcion": "Caminata con dificultad suave-media",
+            "valorVisita": 3000
+        },
+        {
+            "nombre":"Parque Matarredonda",
+            "ubicacion":"Choachi Cundinamarca",
+            "descripcion": "Laguna de teusaca con dificultad suave-media",
+            "valorVisita": "12000 por persona y 5000 por cada perro",
+        }
+    ]
+}
+ 
+ 

@@ -13,6 +13,13 @@
     <h1>Senderos y Patas</h1>
 </header>
 
+<nav>
+    <a href="Senderosypatas.html">Inicio</a> |
+    <a href="Senderosypatas.html">Recorridos</a> |
+    <a href="Contacto.html" target="_self" rel="noopener noreferrer">Contacto</a> |
+    <a href="Senderosypatas.html">Preguntas Frecuentes</a>
+</nav>
+
 <main>
     <section id="Contacto">
         <h2>Contacto</h2>
@@ -30,10 +37,20 @@
             <input type="text" id="telefono" name="telefono"><br>
             <label for="mensaje">Mensaje:</label><br>
             <textarea id="mensaje" name="mensaje" rows="4" cols="50"></textarea><br>
-            <input type="submit" value="Enviar">
+            <button class="btn-enviar" onclick="validarRegistro()">Enviar</button> 
         </form>
     </section>
 </main>
-
+<footer>
+    <p>&copy; 2024 Senderos y Patas. Todos los derechos reservados.</p>
+    <p>
+        Síguenos en: 
+        <a href="https://facebook.com/SenderosyPatas" target="_blank">Facebook</a> | 
+        <a href="https://instagram.com/SenderosyPatas" target="_blank">Instagram</a> | 
+        <a href="https://twitter.com/SenderosyPatas" target="_blank">Twitter</a>
+    </p>
+    <p>Contacto: <a href="mailto:senderosypatas@gmail.com">Senderosypatas@gmail.com</a></p>
+</footer>
+<script src="Funciones.js"></script>
 </body>
 </html>

@@ -5,12 +5,10 @@ body {
     padding: 0;
     background-color: #cfece3; 
     color: #7a214ad0;
-    background-image: url('Imagenes/IMAGEN\ DE\ FONDO.jpg'); 
+    background-image: url('../Imagenes/IMAGEN DE FONDO.jpg'); 
     background-size: cover;  
     background-position: center; 
     background-repeat: no-repeat; 
-    margin: 0; 
-    padding: 0; 
 }
 
 header {
@@ -24,20 +22,35 @@ header {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
 }
 
-header.logo {
-width: 150px;
-height: auto;
-background-color: #1c2042;
-display: flex;
-align-items: center;
-justify-content: center;
-font-weight: bold;
+.logo {
+    width: 150px;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    justify-content: center;   
+    align-items: center; 
 }
 
 .title-image {
     height: auto;
     margin-right: 10px; 
     border-radius: 50%; 
+    text-align: center;
+}
+
+.image-container {
+    display: flex;             
+    justify-content: center;   
+    align-items: center;   
+    width: 100%;   
+}
+
+.bienvenida-img {
+    width: 170px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
 }
 
 header h1 {
@@ -52,6 +65,8 @@ nav {
     padding: 0.5rem;
     text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin: 0;
 }
 
 nav a {
@@ -60,6 +75,14 @@ nav a {
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #0b4520;
+}
+
+#nav-placeholder {
+    width: 100%;
 }
 
 main {
@@ -91,12 +114,14 @@ p {
     color: #3d3d3f
 }
 
-img {
+.recorrido-img {
+    width: 400px; 
+    max-width: 100%; 
+    height: auto; 
     display: block;
     margin: 1rem auto;
-    max-width: 100%;
-    height: auto;
     border-radius: 8px;
+
 }
 
 .recorrido {
@@ -171,21 +196,6 @@ video {
     cursor: pointer;      
 }
 
-footer {
-    background-color: #ebf6fd;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
-
-footer a {
-    color: #d62424;
-    text-decoration: none;
-}
-
 .btn-enviar {
     display: inline-block;    
     padding: 10px 20px;      
@@ -197,14 +207,50 @@ footer a {
     text-align: center;   
     cursor: pointer; 
 }
-.home-button {
-    display: inline-block;    
-    padding: 10px 20px;      
-    font-size: 1rem;          
-    color: #ddeee4;              
-    background-color: #1b5e20; 
-    border: none;           
-    border-radius: 5px;      
-    text-align: center;   
-    cursor: pointer; 
+
+footer {
+    background-color: #ebf6fd;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
+
+footer a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: rgb(59, 58, 58);
+}
+
+footer .social-icon {
+    font-size: 2em; /* Tamaño de los íconos */
+}
+
+
+footer p {
+    text-align: center;
+    margin: 10px 0; 
+    font-size: 1em
+}
+
+footer a:hover i {
+    color: #d62424;
+    opacity: 0.7;
+}
+
+
+footer a.facebook i {
+    color: #3b5998; 
+}
+
+footer a.instagram i {
+    color: #e4405f;
+}
+
+footer a.whatsapp i {
+    color: #25D366; 
+}
+

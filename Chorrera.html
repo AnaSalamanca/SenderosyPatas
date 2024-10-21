@@ -1,71 +1,93 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Parque la Chorrera - Más información</title>
-    <link rel="stylesheet" href="Senderosypatas.css">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 </head>
+
 <body>
 
-<header>
-    <img src="Imagenes/LOGO.png" alt="Senderos y Patas Logo" style="width: 150px;">
-    <h1>Parque la Chorrera</h1>
-</header>
+    <header>
+        <img src="Imagenes/LOGO.png" alt="Senderos y Patas Logo" class="logo">
+        <h1>Parque la Chorrera</h1>
+    </header>
 
-<main>
-    <section id="informacion">
-        <button class="home-button" onclick="location.href='paginaprincipal.html'">Volver a Inicio</button>
-        <h2>Información Adicional</h2>
-        <p>Dificultad media-fuerte, duracion de 4 a 6 horas, entradas desde $40.000 (incluye refrigerio, seguro y carpa para la lluvia) valor del parqueadero $10.000, horario de domingo a domingo de 08:00 am a 3:00 pm.</p>
-            
-    </section>
-    <section id="video">
-        <h2>Video del Parque la Chorrera</h2>
-        <div class="video-container">
-        <video controls width="600">
-        <source src="Videos/VIDEO CHORRERA.mp4" type="video/mp4">
-        </div>
-    </section>
-    <section id="ubicacion-contacto">
-        <h2>Ubicación y Contacto</h2>
-        <p>Se encuentra en el municipio de Choachi Cundinamarca, a 45 minutos de BOGOTÁ, se toma la vía que conduce al santuario de la virgen de Guadalupe, se continua vía a Choachi Cundinamarca y en el kilómetro 27, se desvía a la parte izquierda pasando por el lado de la casa con colores de la bandera de Colombia, hasta el parque son 4 kilómetros en vía reservada hasta llegar a la zona de parqueaderos del parque.</p>
-        <p>Teléfono: 3222471283</p>
-        <p>Email: Senderosypatas@gmail.com</p>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1988.5156176130965!2d-73.95275983305972!3d4.588417279981958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f960c1b30a101%3A0x7813522674b27c6b!2sParque%20Aventura%20La%20Chorrera!5e0!3m2!1ses!2sco!4v1727393656488!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </section>
-    <section id="formulario">
-        <h2>Formulario de Inscripción</h2>
-        <form action="enviar_inscripcion.php" method="POST">
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required>
-            <br>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <br>  
-            <label for="nombre">Telefono:</label>
-            <input type="text" id="nombre" name="Telefono" required>
-            <br>
-            <label for="fecha">Fecha del recorrido:</label>
-            <input type="date" id="fecha" name="fecha" required>
-            <br>
-            <label for="mensaje">Mensaje:</label>
-            <textarea id="mensaje" name="mensaje"></textarea>
-            <br>
-            <input type="submit" value="Enviar">
-        </form>
-    </section>
-</main>
-<footer>
-    <p>&copy; 2024 Senderos y Patas. Todos los derechos reservados.</p>
-    <p>
-        Síguenos en: 
-        <a href="https://facebook.com/SenderosyPatas" target="_blank">Facebook</a> | 
-        <a href="https://instagram.com/SenderosyPatas" target="_blank">Instagram</a> | 
-        <a href="https://twitter.com/SenderosyPatas" target="_blank">Twitter</a>
-    </p>
-    <p>Contacto: <a href="mailto:senderosypatas@gmail.com">Senderosypatas@gmail.com</a></p>
-</footer>
+    <div id="nav-placeholder"></div>
+
+    <main>
+            <h2>Información Adicional</h2>
+            <p>Dificultad media-fuerte, duracion de 4 a 6 horas, entradas desde $40.000 (incluye refrigerio, seguro y
+                carpa para la lluvia) valor del parqueadero $10.000, horario de domingo a domingo de 08:00 am a 3:00 pm.
+            </p>
+
+        </section>
+        <section id="video">
+            <h2>Video del Parque la Chorrera</h2>
+            <div class="video-container">
+                <video controls width="600">
+                    <source src="Videos/VIDEO CHORRERA.mp4" type="video/mp4">
+            </div>
+        </section>
+        <section id="ubicacion-contacto">
+            <h2>Ubicación y Contacto</h2>
+            <p>Se encuentra en el municipio de Choachi Cundinamarca, a 45 minutos de BOGOTÁ, se toma la vía que
+                conduce al santuario de la virgen de Guadalupe, se continua vía a Choachi Cundinamarca y en el
+                kilómetro 27, se desvía a la parte izquierda pasando por el lado de la casa con colores de la bandera
+                de Colombia, hasta el parque son 4 kilómetros en vía reservada hasta llegar a la zona de parqueaderos
+                del parque.</p>
+            <p>Teléfono: 3222471283</p>
+            <p>Email: Senderosypatas@gmail.com</p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1988.5156176130965!2d-73.95275983305972!3d4.588417279981958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f960c1b30a101%3A0x7813522674b27c6b!2sParque%20Aventura%20La%20Chorrera!5e0!3m2!1ses!2sco!4v1727393656488!5m2!1ses!2sco"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <section id="formulario-section"> 
+            <h2>Formulario de Inscripción</h2>
+            <form id="formulario" action="enviar_inscripcion.php" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>  
+                <label for="telefono">Teléfono:</label>
+                <input type="text" id="telefono" name="telefono" required>
+                <br>
+                <label for="fecha">Fecha del recorrido:</label>
+                <input type="date" id="fecha" name="fecha" required>
+                <br>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje"></textarea>
+                <br>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Senderos y Patas. Todos los derechos reservados.</p>
+        <p>
+            Síguenos en:
+            <a href="https://facebook.com/SenderosyPatas" target="_blank" class="social-icon facebook">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://instagram.com/SenderosyPatas" target="_blank" class="social-icon instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://wa.me/1234567890" target="_blank" class="social-icon whatsapp">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+        </p>
+        <p>Contacto: <a href="mailto:senderosypatas@gmail.com">senderosypatas@gmail.com</a></p>
+    </footer>
+
+    <script src="JS/Funciones.js"></script>
+       
 </body>
-</html>
 
+</html>

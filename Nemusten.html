@@ -4,17 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cascada Nemusten Sueva - Más información</title>
-    <link rel="stylesheet" href="Senderosypatas.css">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 </head>
 <body>
 
 <header>
-    <img src="Imagenes/LOGO.png" alt="Senderos y Patas Logo" style="width: 150px;">
+    <img src="Imagenes/LOGO.png" alt="Senderos y Patas Logo" class="logo">
     <h1>Cascada Nemusten Sueva</h1>
 </header>
 
+<div id="nav-placeholder"></div>
+
 <main>
-    <button class="home-button" onclick="location.href='paginaprincipal.html'">Volver a Inicio</button>
     <section id="informacion">
         <h2>Información Adicional</h2>
         <p>Dificultad suave-media, recorrido de 4km-5km aproximadamente, con una duracion de 45 minutos, horario: sabados y domingos de 7:00 am a 6:00 pm.</p>
@@ -28,8 +31,8 @@
     </section>
     <section id="video">
         <div class="video-container">
-        <video controls width="600">
-        <source src="Videos/VIDEO NEMUSTEN.mp4" type="video/mp4">
+        <video controls>
+            <source src="Videos/VIDEO NEMUSTEN.mp4" type="video/mp4">
         </div>
     </section>
     <section id="ubicacion-contacto">
@@ -39,17 +42,18 @@
         <p>Email: Senderosypatas@gmail.com</p>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3975.7629154733204!2d-73.73613372596252!3d4.810722740695906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3ff42973c26641%3A0x6726b33f6ea8898!2sCascada%20de%20Sueva%20Nemosten!5e0!3m2!1ses!2sco!4v1727393330781!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </section>
-    <section id="formulario">
+
+    <section id="formulario-section"> 
         <h2>Formulario de Inscripción</h2>
-        <form action="enviar_inscripcion.php" method="POST">
+        <form id="formulario" action="enviar_inscripcion.php" method="POST">
             <label for="nombre">Nombre:</label>
             <input type="text" id="nombre" name="nombre" required>
             <br>
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required>
             <br>  
-            <label for="nombre">Telefono:</label>
-            <input type="text" id="nombre" name="Telefono" required>
+            <label for="telefono">Teléfono:</label>
+            <input type="text" id="telefono" name="telefono" required>
             <br>
             <label for="fecha">Fecha del recorrido:</label>
             <input type="date" id="fecha" name="fecha" required>
@@ -64,12 +68,21 @@
 <footer>
     <p>&copy; 2024 Senderos y Patas. Todos los derechos reservados.</p>
     <p>
-        Síguenos en: 
-        <a href="https://facebook.com/SenderosyPatas" target="_blank">Facebook</a> | 
-        <a href="https://instagram.com/SenderosyPatas" target="_blank">Instagram</a> | 
-        <a href="https://twitter.com/SenderosyPatas" target="_blank">Twitter</a>
+        Síguenos en:
+        <a href="https://facebook.com/SenderosyPatas" target="_blank" class="social-icon facebook">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://instagram.com/SenderosyPatas" target="_blank" class="social-icon instagram">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://wa.me/1234567890" target="_blank" class="social-icon whatsapp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
     </p>
-    <p>Contacto: <a href="mailto:senderosypatas@gmail.com">Senderosypatas@gmail.com</a></p>
+    <p>Contacto: <a href="mailto:senderosypatas@gmail.com">senderosypatas@gmail.com</a></p>
 </footer>
+
+<script src="JS/Funciones.js"></script>
+
 </body>
 </html>
